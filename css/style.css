@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Source Sans 3', sans-serif;
+}
+/* ===============================
+  ++      banner-sec cod       ++
+  ================================ */
+.banner-sec {
+  width: 100%;
+  height: 80vh;
+  background: url(../img/banerpic.png) center center no-repeat;
+  background-size: cover;
+}
+.banner-sec .nav-link {
+  color: #fffefe;
+  transition: 0.5s;
+}
+.banner-sec .nav-link:hover {
+  color: #fffefe;
+  background: url(../img/menu-rekha.png) center bottom no-repeat;
+  transition: 0.5s;
+}
+.banner-sec .nav-link.active {
+  color: #008ed6;
+  background: url(../img/menu-rekha.png) center bottom no-repeat;
+}
+.banner .row p.title1 {
+  color: #008ed6;
+}
+.banner .row h1 {
+  color: #ffffff;
+}
+.banner .row p.title2 {
+  color: #535356;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.banner .row .prodtls {
+  margin-top: 30px;
+}
+.banner .row .button-sec .btn1 {
+  background-color: #008ed6;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+.banner .row .button-sec .btn2 {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 14px;
+  border: 1px solid #565659;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+.banner .row .button-sec .btn2:hover {
+  background-color: #008ed6;
+}
+
+/* ===============================
+  ++      feature-sec cod       ++
+  ================================ */
+
+.feature-sec {
+  width: 100%;
+  height: 400px;
+  background-color: #ffffff;
+  padding: 70px 0px;
+  margin-bottom: 100px;
+}
+.feature-sec .row .col-lg-3 img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #d5d7de;
+  padding: 25px;
+  border-radius: 50%;
+}
+
+.feature-sec .row .f-titl1 {
+  color: #008ed6;
+}
+.feature-sec .row h2 {
+  color: #1a1a1a;
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: -10px;
+}
+.feature-sec .row h3 {
+  color: #1a1a1a;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.feature-sec .row .f-pasag {
+  color: #9b9b9e;
+  font-size: 16px;
+  font-weight: 400;
+}
+.feature-sec .hr {
+  margin-top: 25px;
+  border-bottom: 1px solid #d5d7de;
+}
+/* ===============================
+  ++      fhon-sec cod       ++
+  ================================ */
+
+.fhon-sec {
+  width: 100%;
+  height: 600px;
+  padding: 40px 0px;
+}
+.fhon-sec .row .mobile1 {
+  width: 80%;
+  height: 500px;
+}
+.fhon-sec .row img.m1 {
+  width: 100%;
+  height: 500px;
+}
+.fhon-sec .row p.p_title1 {
+  text-transform: uppercase;
+  color: #008ed6;
+}
+.fhon-sec .row h2 {
+  text-transform: uppercase;
+  color: #1a1a1a;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.fhon-sec .row p.fon-pasag {
+  color: #9b9b9e;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.fhon-sec .row ul {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+.fhon-sec .row ul li {
+  list-style-type: none;
+  color: #313136;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 8px 0px;
+}
+
+/* ===============================
+  ++      fhon2-sec cod       ++
+  =============================== */
+.fhon2-sec {
+  width: 100%;
+  height: 60vh;
+  padding: 20px 100px;
+  background-color: #f2f2f2;
+}
+.fhon2-sec .row .col-lg-6 .fon-data {
+  padding-top: 40px;
+}
+.fhon2-sec .row .p-title1 {
+  text-transform: uppercase;
+  color: #008ed6;
+}
+.fhon2-sec .row h2 {
+  color: #1a1a1a;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.fhon2-sec .row .fon-pasag {
+  color: #9b9b9e;
+  font-size: 16px;
+  font-weight: 400;
+}
+.fhon2-sec .row .mobile2 {
+  width: 100%;
+  height: 400px;
+}
+.fhon2-sec .row .mobile2 .m2 {
+  width: 100%;
+  height: 400px;
+}
